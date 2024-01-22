@@ -17,17 +17,17 @@ subpage: # 开启“子页”功能，详见 README
       path: computer # 若不设置则默认使用 name
       title: 開發者 # 菜单名，如 开发者
       icon: /images/icon/icon-code.svg # 图标的路径
-      description: 記錄我的計算機学习知識 # 描述
+      description: 記錄我的計算機学习歷程 # 描述
     - name: Math # 文章的分类（category）名，如 developer
       path: math # 若不设置则默认使用 name
       title: 算法 # 菜单名，如 开发者
       icon: /images/icon/icon-pi.svg # 图标的路径
-      description: 記錄我的數學以及算法學習 # 描述
+      description: 記錄我的算法學習歷程 # 描述
     - name: Yijing
       path: yijing
       title: 易
       icon: /images/icon/icon-book.svg
-      description: 我於此探索變化之道，究易學之深理
+      description: 我於此探索變化之道，究易學深理
     - name: Life
       path: life
       title: 生活
