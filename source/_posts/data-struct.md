@@ -11,7 +11,7 @@ category: Math
 
 > 数据结构(data structure)是带有结构特性的数据元素的集合，它研究的是数据的逻辑结构和数据的物理结构以及它们之间的相互关系。
 
-![](https://img-blog.csdnimg.cn/img_convert/adeadae0d0dea9cd9fa42852f5a6b6b2.png)
+![](https://pic.imgdb.cn/item/65afc6cb871b83018a84272b.png)
 
 ### 线性表
 
@@ -40,25 +40,25 @@ category: Math
 
 链表分为带头结点的链表和不带头结点的链表，戴头结点的链表就是会有一个头结点指向后续的整个链表，但是头结点不存放数据
 
-![](https://img-blog.csdnimg.cn/img_convert/85dc3504e1bed27afad5564b368c918b.png)
+![](https://pic.imgdb.cn/item/65afc6ae871b83018a83a288.png)
 
 而不带头结点的链表就像上面那样，第一个节点就是存放数据的结点，一般设计链表都会采用带头结点的结构，因为操作更加方便。
 
 **单链表的插入**
 
-![](https://img-blog.csdnimg.cn/img_convert/cad7b56babe16ece8ee835c9ba893182.png)
+![](https://pic.imgdb.cn/item/65afc6cb871b83018a84285d.png)
 
 我们可以先修改新插入的结点的后继结点（也就是下一个结点）指向，指向原本在这个位置的结点：
 
-![](https://img-blog.csdnimg.cn/img_convert/184241a4c17a9c6468c8309994b89dcb.png)
+![](https://pic.imgdb.cn/item/65afc6cb871b83018a842a15.png)
 
 接着我们可以将前驱结点（也就是上一个结点）的后继结点指向修改为我们新插入的结点：
 
-![](https://img-blog.csdnimg.cn/img_convert/d2cd8cd198ecfe17d3688d449caa0dc3.png)
+![](https://pic.imgdb.cn/item/65afc6cb871b83018a842a15.png)
 
 这样，我们就成功插入了一个新的结点，现在新插入的结点到达了原本的第二个位置上：
 
-![](https://img-blog.csdnimg.cn/img_convert/6bc3bc7fa667b3f81c6668e127b75a40.png)
+![](https://pic.imgdb.cn/item/65afc6cb871b83018a842adb.png)
 
 #### 双链表
 
