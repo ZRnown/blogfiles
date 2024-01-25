@@ -258,3 +258,5 @@ typedef struct tnode
     struct tnode *lchild,*rchild;
 } BTNode;
 ```
+
+![image-20240125080624206](/home/kerin/.config/Typora/typora-user-images/image-20240125080624206.png)
